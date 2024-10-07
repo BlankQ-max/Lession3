@@ -1,5 +1,6 @@
-data = []
-for Elements in range(data):
-    Elements = input("Enter element: ")
-    data.append(Elements)
-    print(data)
+List = []
+num = int(input("How many: "))
+for data in range(num):
+    name = input("Enter: ")
+    List.append(name)
+    print(List)
